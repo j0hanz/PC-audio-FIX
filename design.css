@@ -36,3 +36,53 @@ header {
      background-color: #403D39;
      padding: 10px;
  }
+ main {
+    padding-left: 22em;
+    padding-right: 22em;
+}
+main h2 {
+    font-size: 50px;
+    color: #CCC5B9;
+}
+main h3 {
+    font-size: 35px;
+    color: #CCC5B9;
+}
+main h4 {
+    font-size: 25px;
+}
+main li {
+    font-size: 25px;
+}
+main p {
+    font-size: 22px;
+}
+main b {
+    font-size: 25px;   
+}
+main ul {
+    padding-left: 10em;
+}
+
+#lists {
+    padding-top: 5em;
+}
+.topic {
+    padding-left: 5em;
+}
+#logo {
+    color: #EB5E28;
+    font-size: 50px;
+}
+#guide {
+    padding-right: 2em;
+}
+#contact-us {
+    padding-left: 2em
+}
+.proscons {
+    padding-left: 5em
+}
+#colorshift {
+    color: #EB5E28;
+}
