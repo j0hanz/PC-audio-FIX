@@ -1,4 +1,7 @@
-
+/* Keeps footer at the bottom */
+html {
+    height: 100%;
+}
 /* Style */
 body {
     font-family: sans-serif;
