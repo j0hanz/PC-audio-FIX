@@ -15,6 +15,53 @@
             <a href="contact.html" id="contact-us">Contact</a>
         </nav>
     </header>
-    
+    <main>
+        <div>
+            <form id="contact-form" method="POST" action="https://formdump.codeinstitute.net">
+                <h2><span id="colorshift">GET</span> IN <span id="colorshift">TOUCH</span>:</h2>
+                <label for="fname">First Name:</label>
+                <input type="text" name="fname" id="fname" class="input" placeholder="First Name" required>
+                <br>
+                <label for="lname">Last Name:</label>
+                <input type="text" name="lname" id="lname" class="input" placeholder="Last Name" required>
+                <br>
+                <label for="your-email">Email:</label>
+                <input type="email" name="your-email" id="your-email" class="input" placeholder="Email"  required>
+                <br>
+        </div>
+        <div>
+            <label for="question">Question</label>
+            <input type="radio" name="choice" id="question" value="question" required>
+            </div>
+            <div>
+            <label for="suggestion">Suggestion</label>
+            <input type="radio" name="choice" id="suggestion" value="suggestion" required>
+            </div>
+            <div>
+            <label for="other">Other</label>
+            <input type="radio" name="choice" id="other" value="other" required>
+            </div>
+            <div class="qfield">
+            <label for="headphone-type">Headphone Brand:</label>
+            <input type="text" name="headphone-type" id="headphone-type" class="input" placeholder="Manufacturer">
+            <br>
+            <label for="modelnr">Model:</label>
+            <input type="text" name="modelnr" id="modelnr" class="input" placeholder="Model">
+            <br>
+            <p>What audio source are you using?</p>
+            <label for="pcaudio">Onboard</label>
+            <input type="radio" name="pcaudio" id="pcaudio" value="question" required>
+            <label for="external">Exernal</label>
+            <input type="radio" name="pcaudio" id="external" value="question" required>
+            </div>
+            <br>
+            <div>Message:</div>
+            <textarea id="comment" name="user_message"></textarea>
+            <br>
+            <input type="submit" value="Send"> 
+            </form>      
+        <div>
+        </div>
+        </main>    
 </body>
 </html>
