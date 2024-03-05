@@ -150,16 +150,16 @@ footer {
     left: 50%;
 }
 /* Media */
-@media (max-width: 1700px) {
-   main {
+    @media (max-width: 1700px) {
+    main {
         padding-left: 8em;
         padding-right: 16em;
     }
     .access {
         gap: 2em;
     }
-}
-@media (max-width: 1300px) {
+    }
+    @media (max-width: 1300px) {
     main {
         padding-left: 4em;
         padding-right: 8em;
@@ -183,8 +183,8 @@ footer {
     img {
         width: 750px; 
     }
- }
- @media (max-width: 900px) {
+    }
+    @media (max-width: 900px) {
     main {
         padding-left: 1em;
         padding-right: 3em;
@@ -207,8 +207,8 @@ footer {
     img {
         width: 650px; 
     }
- }
- @media (max-width: 700px) {
+    }
+    @media (max-width: 700px) {
     main {
         padding-left: 0em;
         padding-right: 2em;
@@ -232,4 +232,4 @@ footer {
     img {
         width: 500px; 
     }
-}
+    }
