@@ -245,7 +245,7 @@ footer {
             padding-right: 1em;
         }
             header h1 {
-            font-size: 43px;
+            font-size: 55px;
         }
         header nav {
             font-size: 30px;
@@ -267,7 +267,7 @@ footer {
             width: 400px; 
         }
         #logo {
-            font-size: 35px;
+            font-size: 40px;
         }
         footer {
             .fa-facebook {
@@ -278,13 +278,13 @@ footer {
             }
         }
         }
-        @media (max-width: 460px) {
+        @media (max-width: 500px) {
             main {
                 padding-left: 0,5em;
                 padding-right: 0,5;
             }
                 header h1 {
-                font-size: 40px;
+                font-size: 50px;
             }
             header nav {
                 font-size: 25px;
@@ -317,7 +317,7 @@ footer {
                 }
             }
             }
-            @media (max-width: 400px) {
+            @media (max-width: 450px) {
                 main {
                     padding-left: 0,5em;
                     padding-right: 0,5;
