@@ -1,4 +1,4 @@
-<img src="../PC-audio-FIX/assets/images/logo.webp" width="500" height="80">
+![logo](https://github.com/j0hanz/PC-audio-FIX/assets/159924955/6b2d0d8f-1dd4-4c8c-91d6-f262288dc356)
 
 
 #### This site will guide users to get the best out of their headphones for PC.
