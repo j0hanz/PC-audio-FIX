@@ -1,13 +1,17 @@
+/* For scrolling behavior */
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 16rem;
 }
+
+/* All elements */
 * {
     padding: 0;
     margin: 0;
     box-sizing: unset;
 }
 
+/* Body */
 body {
     min-height: 100vh;
     display: flex;
@@ -21,10 +25,13 @@ body {
     width: min(90%, 1200px);
 }
 
+/* Remove underline on links */
 a {
     text-decoration: none;
     color: #EB5E28;
 }
+
+/* Header */
 header {
     background-color: #252422;
     text-align: center;
@@ -47,6 +54,7 @@ header nav {
     background-color: #403D39;
     padding: 10px;
 }
+
 /* Main */
 main {
     padding-left: 20em;
@@ -76,6 +84,7 @@ main ul {
     padding-left: 7em;
 }
 
+/* ID:s and classes */
 #lists {
     padding-top: 5em;
 }
@@ -108,6 +117,8 @@ main ul {
     font-size: 25px;
     box-shadow: 0px 3px 0px #EB5E28;
 }
+
+/* Images */
 img {
     padding-top: 20px;
     padding-bottom: 10em;
@@ -155,7 +166,8 @@ footer {
 .fa-headphones-simple {
     left: 50%;
 }
-/* Media */
+
+/* Media queries */
     @media (max-width: 1700px) {
     main {
         padding-left: 8em;
@@ -240,119 +252,107 @@ footer {
     }
     }
     @media (max-width: 600px) {
-        main {
-            padding-left: 1em;
-            padding-right: 1em;
-        }
-            header h1 {
-            font-size: 55px;
-        }
-        header nav {
-            font-size: 30px;
-            padding: 15px;
-        }
-        main h2 {
-            font-size: 30px;
-        }
-        main ul {
-            padding-left: 1em;
-        }
-        .access {
-            gap: 1em;
-        }
-        .access a {   
-            font-size: 20px;
-        }
-        img {
-            width: 400px; 
-        }
-        #logo {
-            font-size: 40px;
-        }
-        footer {
-            .fa-facebook {
-                padding-right: 2em;
-            }
-            .fa-square-twitter {
-                padding-left: 2em;
-            }
-        }
-        }
-        @media (max-width: 500px) {
-            main {
-                padding-left: 0,5em;
-                padding-right: 0,5;
-            }
-                header h1 {
-                font-size: 50px;
-            }
-            header nav {
-                font-size: 25px;
-                padding: 12px;
-            }
-            main h2 {
-                font-size: 30px;
-            }
-            main ul {
-                padding-left: 1em;
-            }
-            .access {
-                gap: 1em;
-            }
-            .access a {   
-                font-size: 15px;
-            }
-            img {
-                width: 350px; 
-            }
-            #logo {
-                font-size: 30px;
-            }
-            footer {
-                .fa-facebook {
-                    padding-right: 1em;
+    main {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+        header h1 {
+        font-size: 55px;
+    }
+     header nav {
+        font-size: 30px;
+        padding: 15px;
+    }
+     main h2 {
+        font-size: 30px;
+    }
+    main ul {
+        padding-left: 1em;
+    }
+    .access {
+         gap: 1em;
+    }
+    .access a {   
+        font-size: 20px;
+    }
+    img {
+        width: 400px; 
+    }
+    #logo {
+        font-size: 40px;
+    }
+    .fa-facebook {
+        padding-right: 2em;
+    }
+    .fa-square-twitter {
+        padding-left: 2em;
+    }
+    }
+    @media (max-width: 500px) {
+    main {
+        padding-left: 0,5em;
+        padding-right: 0,5;
+    }
+    header h1 {
+        font-size: 50px;
+    }
+    header nav {
+        font-size: 25px;
+        padding: 12px;
+    }
+    main h2 {
+        font-size: 30px;
+    }
+    main ul {
+        padding-left: 1em;
+    }
+    .access {
+        gap: 1em;
+    }
+    .access a {   
+        font-size: 15px;
+    }
+    img {
+        width: 350px; 
+    }
+    #logo {
+        font-size: 30px;
+    }
+    .fa-facebook {
+        padding-right: 1em;
                 }
-                .fa-square-twitter {
-                    padding-left: 1em;
-                }
-            }
-            }
-            @media (max-width: 450px) {
-                main {
-                    padding-left: 0,5em;
-                    padding-right: 0,5;
-                }
-                    header h1 {
-                    font-size: 35px;
-                }
-                header nav {
-                    font-size: 25px;
-                    padding: 10px;
-                }
-                main h2 {
-                    font-size: 25px;
-                }
-                main ul {
-                    padding-left: 1em;
-                }
-                .access {
-                    gap: 1em;
-                }
-                .access a {   
-                    font-size: 20px;
-                }
-                img {
-                    width: 350px; 
-                }
-                #logo {
-                    font-size: 30px;
-                }
-                footer {
-                    .fa-facebook {
-                        padding-right: 1em;
-                    }
-                    .fa-square-twitter {
-                        padding-left: 1em;
-                    }
-                }
-            }
+    .fa-square-twitter {
+        padding-left: 1em;
+    }
+    }
+    @media (max-width: 450px) {
+    main {
+        padding-left: 0,5em;
+        padding-right: 0,5;
+    }
+    header h1 {
+        font-size: 35px;
+    }
+    header nav {
+        font-size: 25px;
+        padding: 10px;
+    }
+    main h2 {
+        font-size: 25px;
+    }
+    main ul {
+        padding-left: 1em;
+    }
+    .access {
+        gap: 1em;
+    }
+    .access a {   
+        font-size: 20px;
+    }
+    img {
+        width: 350px; 
+    }
+    #logo {
+        font-size: 30px;
+    }
+    }
