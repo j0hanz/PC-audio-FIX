@@ -31,6 +31,10 @@ a {
     color: #EB5E28;
 }
 
+a:hover {
+    color: #CCC5B9;   
+}
+
 /* Header */
 header {
     background-color: #252422;
@@ -95,11 +99,15 @@ main ul {
     color: #EB5E28;
     font-size: 50px;
 }
-#guide {
-    padding-right: 2em;
+#logo:hover {
+    color: #FFFCF2;
 }
-#contact-us {
-    padding-left: 2em
+.menu {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 4em;
 }
 .proscons {
     padding-left: 5em;
@@ -116,6 +124,12 @@ main ul {
     color: #CCC5B9;
     font-size: 25px;
     box-shadow: 0px 3px 0px #EB5E28;
+}
+.access a:hover  {
+    color: #EB5E28;
+}
+.hover:hover {
+    color: #EB5E28;
 }
 
 /* Images */
