@@ -2,41 +2,41 @@
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 16rem;
-}
-
-/* All elements */
-* {
+  }
+  
+  /* All elements */
+  * {
     padding: 0;
     margin: 0;
     box-sizing: unset;
-}
-
-/* Body */
-body {
+  }
+  
+  /* Body */
+  body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #FFFCF2;
+    color: #fffcf2;
     font-family: sans-serif;
     background-color: #252422;
     padding-top: 200px;
-}
-.container {
+  }
+  .container {
     width: min(90%, 1200px);
-}
-
-/* Remove underline on links */
-a {
+  }
+  
+  /* Remove underline on links */
+  a {
     text-decoration: none;
-    color: #EB5E28;
-}
-
-a:hover {
-    color: #CCC5B9;   
-}
-
-/* Header */
-header {
+    color: #eb5e28;
+  }
+  
+  a:hover {
+    color: #ccc5b9;
+  }
+  
+  /* Header */
+  header {
     background-color: #252422;
     text-align: center;
     position: fixed;
@@ -45,328 +45,478 @@ header {
     right: 0;
     align-items: baseline;
     width: 100%;
-    box-shadow: 0px 3px 0px #EB5E28;
+    box-shadow: 0px 3px 0px #eb5e28;
     padding-top: 10px;
-}
-header h1 {
+  }
+  header h1 {
     font-size: 90px;
-    color: #FFFCF2;
-}
-header nav {
+    color: #fffcf2;
+  }
+  header nav {
     text-align: center;
     font-size: 30px;
-    background-color: #403D39;
+    background-color: #403d39;
     padding: 10px;
-}
-
-/* Main */
-main {
+  }
+  
+  /* Main */
+  main {
     padding-left: 20em;
     padding-right: 30em;
-}
-main h2 {
+  }
+  main h2 {
     font-size: 50px;
-    color: #CCC5B9;
-}
-main h3 {
+    color: #ccc5b9;
+  }
+  main h3 {
     font-size: 30px;
-    color: #CCC5B9;
-}
-main h4 {
+    color: #ccc5b9;
+  }
+  main h4 {
     font-size: 20px;
-}
-main li {
+  }
+  main li {
     font-size: 20px;
-}
-main p {
+  }
+  main p {
     font-size: 18px;
-}
-main b {
-    font-size: 20px;   
-}
-main ul {
+  }
+  main b {
+    font-size: 20px;
+  }
+  main ul {
     padding-left: 7em;
-}
-
-/* ID:s and classes */
-#lists {
+  }
+  
+  /* ID:s and classes */
+  #lists {
     padding-top: 5em;
-}
-.topic {
+  }
+  .topic {
     padding-left: 5em;
-}
-#logo {
-    color: #EB5E28;
+  }
+  #logo {
+    color: #eb5e28;
     font-size: 50px;
-}
-#logo:hover {
-    color: #FFFCF2;
-}
-.menu {
+  }
+  #logo:hover {
+    color: #fffcf2;
+  }
+  .menu {
     text-align: center;
     display: flex;
     justify-content: center;
     list-style-type: none;
     gap: 4em;
-}
-.proscons {
+  }
+  .margin {
     padding-left: 5em;
-}
-#colorshift {
-    color: #EB5E28;
-}
-.access {
+  }
+  #colorshift {
+    color: #eb5e28;
+  }
+  .access {
     list-style-type: none;
     display: flex;
     gap: 4em;
-}
-.access a {
-    color: #CCC5B9;
+  }
+  .access a {
+    color: #ccc5b9;
     font-size: 25px;
-    box-shadow: 0px 3px 0px #EB5E28;
-}
-.access a:hover  {
-    color: #EB5E28;
-}
-.hover:hover {
-    color: #EB5E28;
-}
-
-/* Images */
-img {
+    box-shadow: 0px 3px 0px #eb5e28;
+  }
+  .access a:hover {
+    color: #eb5e28;
+  }
+  .hover:hover {
+    color: #eb5e28;
+  }
+  
+  /* Images */
+  img {
     padding-top: 20px;
     padding-bottom: 10em;
     line-height: 1em;
     width: 35%;
-}
-.img_wrap {
-    position: relative; 
-}
-.img_source {
+  }
+  .img_wrap {
+    position: relative;
+  }
+  .img_source {
     position: absolute;
     bottom: 25%;
     left: 10%;
     visibility: hidden;
     opacity: 0;
-    transition: opacity .2s, visibility .2s;
-}
-.img_wrap:hover .img_source {
+    transition: opacity 0.2s, visibility 0.2s;
+  }
+  .img_wrap:hover .img_source {
     visibility: visible;
     opacity: 1;
-}
-
-/* Footer */
-footer {
+  }
+  
+  /* Footer */
+  footer {
     margin-top: auto;
-}
-#social {
-    background-color: #403D39;
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-    left: 0;
-    right: 0;
-    box-sizing: border-box;
-    justify-content: center;
-    font-size: 50px;
+    background-color: #403d39;
+    font-size: 60px;
     padding: 10px;
-}
-.fa-facebook {
-    padding-right: 3em;
-}
-.fa-square-twitter {
-    padding-left: 3em;
-}
-.fa-headphones-simple {
+  }
+  .fa-headphones-simple {
     left: 50%;
-}
-
-/* Media queries */
-    @media (max-width: 1700px) {
+  }
+  /* 1440px width */
+  @media (max-width: 1440px) {
     main {
-        padding-left: 8em;
-        padding-right: 16em;
+      padding-left: 5em;
+      padding-right: 10em;
+    }
+    main h2 {
+      font-size: 40px;
+    }
+    main h3 {
+      font-size: 36px;
+    }
+    main h4 {
+      font-size: 28px;
+    }
+    .topic {
+      padding-left: 2em;
+    }
+    .margin {
+      padding-left: 2em;
     }
     .access {
-        gap: 2em;
+      gap: 3em;
     }
+    img {
+      width: 50%;
     }
-    @media (max-width: 1300px) {
+    footer {
+      font-size: 50px;
+    }
+  }
+  /* 1024px width */
+  @media (max-width: 1024px) {
     main {
-        padding-left: 4em;
-        padding-right: 8em;
+      padding-left: 6em;
+      padding-right: 14em;
     }
     header h1 {
-        font-size: 75px;
-        padding: 5px;
-    }
-    header nav {
-        font-size: 30px;
+      font-size: 58px;
+      padding: 12px;
     }
     main h2 {
-        font-size: 40px;
+      font-size: 40px;
+    }
+    main h3 {
+      font-size: 36px;
+    }
+    main h4 {
+      font-size: 28px;
+    }
+    .topic {
+      padding-left: 2em;
+    }
+    .margin {
+      padding-left: 2em;
     }
     .access {
-        gap: 3em;
+      display: grid;
     }
-    .access a {   
-        font-size: 20px;
+    .access a {
+      font-size: 28px;
     }
     img {
-        width: 750px; 
+      width: 75%;
     }
+    footer {
+      font-size: 50px;
     }
-    @media (max-width: 900px) {
+  }
+  /* 768 width */
+  @media (max-width: 768px) {
     main {
-        padding-left: 1em;
-        padding-right: 3em;
+      padding-left: 0.5em;
+      padding-right: 1.5em;
     }
     header h1 {
-        font-size: 75px;
+      font-size: 48px;
+      padding: 12px;
     }
     header nav {
-        font-size: 27px;
+      font-size: 32px;
+      padding: 12px;
+    }
+    .menu {
+      gap: 2em;
     }
     main h2 {
-        font-size: 35px;
+      font-size: 34px;
     }
-    .access {
-        gap: 1em;
+    main h3 {
+      font-size: 34px;
     }
-    .access a {   
-        font-size: 20px;
+    main h4 {
+      font-size: 30px;
     }
-    img {
-        width: 650px; 
-    }
-    }
-    @media (max-width: 700px) {
-    main {
-        padding-left: 1em;
-        padding-right: 1em;
-    }
-        header h1 {
-        font-size: 65px;
-    }
-    header nav {
-        font-size: 30px;
-        padding: 15px;
-    }
-    main h2 {
-        font-size: 30px;
-    }
-    .access {
-        gap: 0.5em;
-    }
-    .access a {   
-        font-size: 20px;
-    }
-    img {
-        width: 500px; 
-    }
-    }
-    @media (max-width: 600px) {
-    main {
-        padding-left: 1em;
-        padding-right: 1em;
-    }
-        header h1 {
-        font-size: 55px;
-    }
-     header nav {
-        font-size: 30px;
-        padding: 15px;
-    }
-     main h2 {
-        font-size: 30px;
+    main p {
+      font-size: 26px;
     }
     main ul {
-        padding-left: 1em;
+      padding-left: 4em;
+    }
+    main li {
+      font-size: 26px;
+    }
+    .topic {
+      padding-left: 2em;
+    }
+    .margin {
+      padding-left: 2em;
     }
     .access {
-         gap: 1em;
+      display: grid;
     }
-    .access a {   
-        font-size: 20px;
+    .access a {
+      font-size: 30px;
     }
     img {
-        width: 400px; 
+      width: 75%;
     }
     #logo {
-        font-size: 40px;
+      font-size: 34px;
     }
-    .fa-facebook {
-        padding-right: 2em;
+    footer {
+      font-size: 44px;
     }
-    .fa-square-twitter {
-        padding-left: 2em;
-    }
-    }
-    @media (max-width: 500px) {
+  }
+  /* 425 width */
+  @media (max-width: 425px) {
     main {
-        padding-left: 0,5em;
-        padding-right: 0,5;
+      padding-left: 0.5em;
+      padding-right: 1em;
     }
     header h1 {
-        font-size: 50px;
+      font-size: 42px;
+      padding: 12px;
     }
     header nav {
-        font-size: 25px;
-        padding: 12px;
+      font-size: 30px;
+      padding: 12px;
+    }
+    .menu {
+      gap: 1em;
     }
     main h2 {
-        font-size: 30px;
+      font-size: 26px;
+    }
+    main h3 {
+      font-size: 24px;
+    }
+    main h4 {
+      font-size: 22px;
+    }
+    main p {
+      font-size: 18px;
     }
     main ul {
-        padding-left: 1em;
+      padding-left: 1.5em;
+    }
+    main li {
+      font-size: 18px;
+    }
+    .topic {
+      padding-left: 1.5em;
+    }
+    .margin {
+      padding-left: 1.5em;
     }
     .access {
-        gap: 1em;
+      display: grid;
     }
-    .access a {   
-        font-size: 15px;
+    .access a {
+      font-size: 30px;
     }
     img {
-        width: 350px; 
+      width: 100%;
     }
     #logo {
-        font-size: 30px;
+      font-size: 30px;
     }
-    .fa-facebook {
-        padding-right: 1em;
-                }
-    .fa-square-twitter {
-        padding-left: 1em;
+    footer {
+      font-size: 40px;
     }
-    }
-    @media (max-width: 450px) {
+  }
+  /* 375 width */
+  @media (max-width: 375px) {
     main {
-        padding-left: 0,5em;
-        padding-right: 0,5;
+      padding-left: 0.5em;
+      padding-right: 1em;
     }
     header h1 {
-        font-size: 35px;
+      font-size: 34px;
+      padding: 12px;
     }
     header nav {
-        font-size: 25px;
-        padding: 10px;
+      font-size: 28px;
+      padding: 12px;
+    }
+    .menu {
+      gap: 1em;
     }
     main h2 {
-        font-size: 25px;
+      font-size: 22px;
+    }
+    main h3 {
+      font-size: 20px;
+    }
+    main h4 {
+      font-size: 18px;
+    }
+    main p {
+      font-size: 17px;
     }
     main ul {
-        padding-left: 1em;
+      padding-left: 1em;
+    }
+    main li {
+      font-size: 17px;
+    }
+    .topic {
+      padding-left: 1em;
+    }
+    .margin {
+      padding-left: 1em;
     }
     .access {
-        gap: 1em;
+      display: grid;
     }
-    .access a {   
-        font-size: 20px;
+    .access a {
+      font-size: 26px;
     }
     img {
-        width: 350px; 
+      width: 100%;
     }
     #logo {
-        font-size: 30px;
+      font-size: 28px;
     }
+    footer {
+      font-size: 34px;
     }
+  }
+  /* 320 width */
+  @media (max-width: 320px) {
+    main {
+      padding-left: 0;
+      padding-right: 1em;
+    }
+    header h1 {
+      font-size: 30px;
+      padding: 12px;
+    }
+    header nav {
+      font-size: 24px;
+      padding: 12px;
+    }
+    .menu {
+      gap: 1em;
+    }
+    main h2 {
+      font-size: 20px;
+    }
+    main h3 {
+      font-size: 18px;
+    }
+    main h4 {
+      font-size: 16px;
+    }
+    main p {
+      font-size: 15px;
+    }
+    main ul {
+      padding-left: 1em;
+    }
+    main li {
+      font-size: 15px;
+    }
+    .topic {
+      padding-left: 1em;
+    }
+    .margin {
+      padding-left: 0.5em;
+    }
+    .access {
+      display: grid;
+    }
+    .access a {
+      font-size: 22px;
+    }
+    img {
+      width: 100%;
+    }
+    #logo {
+      font-size: 22px;
+    }
+    footer {
+      font-size: 30px;
+    }
+  }
+  /* 280 width */
+  @media (max-width: 280px) {
+    main {
+      padding-left: 0.5em;
+      padding-right: 0.5em;
+    }
+    header h1 {
+      font-size: 28px;
+      padding: 10px;
+    }
+    header nav {
+      font-size: 20px;
+      padding: 10px;
+    }
+    .menu {
+      gap: 1.5em;
+    }
+    main h2 {
+      font-size: 18px;
+    }
+    main h3 {
+      font-size: 16px;
+    }
+    main h4 {
+      font-size: 14px;
+    }
+    main p {
+      font-size: 12px;
+    }
+    main li {
+      font-size: 12px;
+    }
+    main ul {
+      padding-left: 1em;
+    }
+    .topic {
+      padding-left: 1em;
+    }
+    .margin {
+      padding-left: 0.5em;
+    }
+    .access {
+      display: grid;
+    }
+    .access a {
+      font-size: 22px;
+    }
+    img {
+      width: 100%;
+    }
+    #logo {
+      font-size: 20px;
+    }
+    footer {
+      font-size: 28px;
+    }
+  }
+  
