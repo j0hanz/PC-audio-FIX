@@ -111,8 +111,7 @@ main ul {
 img {
     padding-top: 20px;
     padding-bottom: 10em;
-    max-width: 100%;
-    display: block;
+    line-height: 1em;
 }
 .img_wrap {
     position: relative; 
