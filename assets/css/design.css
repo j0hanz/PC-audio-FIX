@@ -150,6 +150,7 @@ html {
     opacity: 0;
     transition: opacity 0.2s, visibility 0.2s;
   }
+  /* Hover to view "image taken by" */
   .img_wrap:hover .img_source {
     visibility: visible;
     opacity: 1;
