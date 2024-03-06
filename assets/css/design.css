@@ -131,7 +131,22 @@ html {
   .hover:hover {
     color: #eb5e28;
   }
-  
+  .margin-top {
+    margin-top: 15px;
+  }
+  .input {
+    width: 20em;
+    height: 2em;
+  }
+  .textarea {
+    width: 20em;
+    height: 8em;
+  }
+  .submit {
+    font-size: 20px;
+    width: 3em;
+  }
+
   /* Images */
   img {
     padding-top: 20px;
