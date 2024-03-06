@@ -31,7 +31,7 @@ Student at Code Institute.
 - [@j0hanz](https://github.com/j0hanz)
 
 ## User Experience
-xxx
+PC audio FIX targets all users that loves great audio from their PC, providing guidance and information about audio.
 
 ## Design
 ### Colour Scheme
