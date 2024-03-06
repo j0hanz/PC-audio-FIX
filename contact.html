@@ -39,120 +39,73 @@
     <!-- Content of the page
     Here you can ask questions or give any suggestion what recommendation should be added. -->
     <main>
-      <div>
-        <form
-          id="contact-form"
-          method="POST"
-          action="https://formdump.codeinstitute.net"
-        >
-          <h2>
-            <span id="colorshift">Get</span> In
-            <span id="colorshift">Touch </span
-            ><i class="fa-solid fa-message" style="color: #eb5e28"></i>
-          </h2>
-          <br /><br />
-          <label for="fname">First Name:</label>
+      <h2>
+        <span id="colorshift">Get</span> In <span id="colorshift">Touch </span
+        ><i class="fa-solid fa-message" style="color: #eb5e28"></i>
+      </h2>
+      <form
+        id="contact-form"
+        method="POST"
+        action="https://formdump.codeinstitute.net"
+      >
+        <div class="margin-top">
           <input
             type="text"
             name="fname"
-            id="fname"
             class="input"
-            placeholder="First Name"
+            placeholder="First Name (required)"
             required
           />
-          <br />
-          <label for="lname">Last Name:</label>
           <input
             type="text"
             name="lname"
-            id="lname"
             class="input"
-            placeholder="Last Name"
+            placeholder="Last Name (required)"
             required
           />
-          <br />
-          <label for="your-email">Email:</label>
+        </div>
+        <div>
           <input
             type="email"
             name="your-email"
             id="your-email"
             class="input"
-            placeholder="Email"
+            placeholder="Email (required)"
             required
           />
-          <br />
-          <label for="question">Question</label>
+          <select class="input" required>
+            <option value="" aria-required="false">-</option>
+            <option value="1">Question</option>
+            <option value="2">Suggestion</option>
+            <option value="3">Other</option>
+          </select>
+        </div>
+        <div class="margin-top">
           <input
-            type="radio"
-            name="choice"
-            id="question"
-            value="question"
-            required
+            type="text"
+            name="headphone-type"
+            class="input"
+            placeholder="Headphone Manufacturer"
           />
-          <div>
-            <label for="suggestion">Suggestion</label>
-            <input
-              type="radio"
-              name="choice"
-              id="suggestion"
-              value="suggestion"
-              required
-            />
-          </div>
-          <div>
-            <label for="other">Other</label>
-            <input
-              type="radio"
-              name="choice"
-              id="other"
-              value="other"
-              required
-            />
-          </div>
-          <div class="qfield">
-            <label for="headphone-type">Headphone Brand:</label>
-            <input
-              type="text"
-              name="headphone-type"
-              id="headphone-type"
-              class="input"
-              placeholder="Manufacturer"
-            />
-            <br />
-            <label for="modelnr">Model:</label>
-            <input
-              type="text"
-              name="modelnr"
-              id="modelnr"
-              class="input"
-              placeholder="Model"
-            />
-            <br />
-            <p>What audio source are you using?</p>
-            <label for="pcaudio">Onboard</label>
-            <input
-              type="radio"
-              name="pcaudio"
-              id="pcaudio"
-              value="question"
-              required
-            />
-            <label for="external">External</label>
-            <input
-              type="radio"
-              name="pcaudio"
-              id="external"
-              value="question"
-              required
-            />
-          </div>
-          <br />
-          <div>Message:</div>
-          <textarea id="comment" name="user_message"></textarea>
-          <br />
-          <input type="submit" value="Send" />
-        </form>
-      </div>
+          <input
+            type="text"
+            name="modelnr"
+            class="input"
+            placeholder="Headphone Model"
+          />
+        </div>
+        <div class="margin-top">
+          <textarea
+            name="user_message"
+            class="textarea"
+            placeholder="Message (required)"
+            required
+          ></textarea>
+        </div>
+        <div class="margin-top">
+          <input type="submit" class="submit" value="Send" />
+        </div>
+      </form>
     </main>
     <footer>
       <nav>
