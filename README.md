@@ -57,10 +57,6 @@ Also made the title-logo possible.
 
 https://fontawesome.com/icons
 
-## Imagery
-
-[Unsplash](https://unsplash.com/)
-
 # Features
 
 ## General Features on Each page
@@ -73,7 +69,7 @@ For mobile & tablets It will change coolor when clicked insteed.
 
 Implement a forum so users can communicate with other users.
 
-Benefits:
+### Benefits:
 
 * Quicker response
 * Users can help solving sound issues for other users.
@@ -81,27 +77,27 @@ Benefits:
 
 ## Pages
 
-### Home
+### Home page
 
 ![Home_page](https://github.com/j0hanz/PC-audio-FIX/assets/159924955/a4f3d261-4975-4daf-9bce-5a15d704c305)
 
 This Is the first page you will be headed when visiting the site. Also by clicking on the Title/logo at the top. 
 
-### Guide
+### Guide page
 
 ![Guide_page](https://github.com/j0hanz/PC-audio-FIX/assets/159924955/8574946e-13a1-4f8e-a249-0ea9b534498c)
 
 Here you will find step by step guide to make sure the audio Is playing correctly.
 
-### Setup
+### Setup page
 
 ![Setup_page](https://github.com/j0hanz/PC-audio-FIX/assets/159924955/cd3e49e7-16de-404e-83fc-fe9fc6869281)
 
 Overview of different audio setups, the differences and pros & cons. 
 
-### Contact
+### Contact page
 
-!Picture
+![Contact_page](https://github.com/j0hanz/PC-audio-FIX/assets/159924955/ae261b5c-a145-493d-8ea5-b7b4b459341e)
 
 By going to the contact page, users can ask questions or give some audio/sound suggestions that should be mentioned.
 
@@ -115,11 +111,11 @@ Userfriendly access & navigation bar that changes coolor when mouse Is hoverd to
 
 ![access_bar](https://github.com/j0hanz/PC-audio-FIX/assets/159924955/6682ec84-bfe8-4e78-8d1a-6f749f7bda08)
 
-### Smooth scroll behavior.
+### Smooth scroll behavior
 
 https://github.com/j0hanz/PC-audio-FIX/assets/159924955/0ef6731f-6021-4b9d-9821-93e292668906
 
-### Quick access bar.
+### Quick access bar
 
 https://github.com/j0hanz/PC-audio-FIX/assets/159924955/bb7bc065-1ffe-4ebc-814a-8c4cc1cc74af
 
