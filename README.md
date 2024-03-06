@@ -40,7 +40,9 @@ Took inspiration from coolors.com.
 https://coolors.co/252422-403d39-eb5e28-ccc5b9-fffcf2
 
 ### Typography
-xxx
+Icons added on this website imported from Font Awesome.
+https://fontawesome.com/icons
+
 ### Imagery
 xxx
 ### Wireframes
