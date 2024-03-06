@@ -35,7 +35,10 @@ xxx
 
 ## Design
 ### Colour Scheme
-xxx
+![Coolor_Scheme_coolors co](https://github.com/j0hanz/PC-audio-FIX/assets/159924955/6ebfb2ae-c762-4e6f-a784-d9d7837b05fd)
+Took inspiration from coolors.com.
+https://coolors.co/252422-403d39-eb5e28-ccc5b9-fffcf2
+
 ### Typography
 xxx
 ### Imagery
