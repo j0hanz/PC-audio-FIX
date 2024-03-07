@@ -25,6 +25,9 @@
         - [Mobile](#mobile)
         - [Tablet](#tablet)
 - [Technologies Used](#technologies-used)
+- [Deployment & Local Development](#deployment--local-development)
+  - [Deployment](#deployment)
+  - [Local Development](local-development)
 - [Testing](#testing)
   - [W3C Validator](#w3c-validator)
 - [Credits](#credits)
@@ -154,6 +157,39 @@ https://github.com/j0hanz/PC-audio-FIX/assets/159924955/bb7bc065-1ffe-4ebc-814a-
 
 * [Gitpod](https://www.gitpod.io/) - For workspace.
 
+# Deployment & Local Development
+
+## Deployment
+
+Login (or signup) to Github.
+
+#### Instructions:
+
+* Go to the repository for this project -> [PC-audio-FIX](https://github.com/j0hanz/PC-audio-FIX)
+* Click on the settings button.
+* Select pages in the left hand navigation menu.
+* From the dropwdown, select *main branch* and then click save.
+
+## Local Development
+
+Login (or signup) to Github.
+
+### Fork
+
+#### Instructions:
+
+* Go to the repository for this project: -> [PC-audio-FIX](https://github.com/j0hanz/PC-audio-FIX)
+* Click the Fork button in the top right corner.
+
+### Clone
+
+#### Instructions:
+
+* Go to the repository for this project: -> [PC-audio-FIX](https://github.com/j0hanz/PC-audio-FIX)
+* Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+* Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+* Type 'git clone' into the terminal and then paste the link you copied. Press enter.
+
 # Testing
 
 ## W3C Validator
@@ -176,7 +212,7 @@ Contact page:
 
 ![contact_testing](https://github.com/j0hanz/PC-audio-FIX/assets/159924955/c52b7620-765a-4256-bdb7-271da9c8f7ee)
 
-Css file:
+CSS file:
 
 ![css_testing](https://github.com/j0hanz/PC-audio-FIX/assets/159924955/15be6a44-e182-49a3-8322-cbea23a7c582)
 
