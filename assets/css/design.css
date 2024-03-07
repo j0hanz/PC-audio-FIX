@@ -89,7 +89,7 @@ main ul {
 }
 
 /* ID:s and classes */
-#lists {
+.lists {
   padding-top: 5em;
 }
 .topic {
