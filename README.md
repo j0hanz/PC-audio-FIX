@@ -10,22 +10,23 @@
 - [Design](#design)
     - [Colour Scheme](#colour-scheme)
     - [Typography](#typography)
-    - [Imagery](#imagery)
 - [Features](#features)
     - [General Features on Each page](#general-features-on-each-page)
     - [Future Implementations](#future-implementations)
     - [Pages](#pages)
-        - [Home](#home)
-        - [Guide](#guide)
-        - [Setup](#setup)
-        - [Contact](#contact)
+        - [Home page](#home-page)
+        - [Guide page](#guide-page)
+        - [Setup page](#setup-page)
+        - [Contact page](#contact-page)
     - [Accessibility](#accessibility)
       - [Smooth scroll-behavior](#smooth-scroll-behavior)
       - [Quick access bar](#quick-access-bar)
-    - [Multicreen Support](#multiscreen-support)
+    - [Multiscreen Support](#multiscreen-support)
         - [Mobile](#mobile)
         - [Tablet](#tablet)
 - [Technologies Used](#technologies-used)
+- [Testing](#testing)
+  - [W3C Validator](#w3c-validator)
 - [Credits](#credits)
     - [Youtube Channels](#youtube-channels)
     - [Content](#content)
@@ -119,7 +120,7 @@ https://github.com/j0hanz/PC-audio-FIX/assets/159924955/0ef6731f-6021-4b9d-9821-
 
 https://github.com/j0hanz/PC-audio-FIX/assets/159924955/bb7bc065-1ffe-4ebc-814a-8c4cc1cc74af
 
-## Multicreen Support
+## Multiscreen Support
 
 ### Mobile
 
@@ -152,6 +153,32 @@ https://github.com/j0hanz/PC-audio-FIX/assets/159924955/bb7bc065-1ffe-4ebc-814a-
 * [W3Schools](https://www.w3schools.com/html/default.asp) - Helpt me to getting ideas for html & Css codes.
 
 * [Gitpod](https://www.gitpod.io/) - For workspace.
+
+# Testing
+
+## W3C Validator
+
+The W3C validator was used to validate all html pages & css.
+
+Home page:
+
+![index_testing](https://github.com/j0hanz/PC-audio-FIX/assets/159924955/050c4f99-7c91-4cd0-a774-495d8f4719fc)
+
+Guide page:
+
+![guide_testing](https://github.com/j0hanz/PC-audio-FIX/assets/159924955/68027497-32c6-43c7-89e3-7abd39e9d781)
+
+Setup page:
+
+![setup_testing](https://github.com/j0hanz/PC-audio-FIX/assets/159924955/3aa86649-3a28-4ea9-8a76-5b1bbf2aa19c)
+
+Contact page:
+
+![contact_testing](https://github.com/j0hanz/PC-audio-FIX/assets/159924955/c52b7620-765a-4256-bdb7-271da9c8f7ee)
+
+Css file:
+
+![css_testing](https://github.com/j0hanz/PC-audio-FIX/assets/159924955/15be6a44-e182-49a3-8322-cbea23a7c582)
 
 
 # Credits
