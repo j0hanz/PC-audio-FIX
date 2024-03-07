@@ -107,7 +107,8 @@ By going to the contact page, users can ask questions or give some audio/sound s
 
 ## Accessibility
 
-Userfriendly access & navigation bar that changes coolor when mouse Is hoverd to It. 
+Userfriendly access & navigation bar that changes coolor when mouse Is hoverd to It.
+Example images below:
 
 ![Logo_mouse-click_hover](https://github.com/j0hanz/PC-audio-FIX/assets/159924955/16381623-8acc-4d63-8219-2e5fa18ceeba)
 
