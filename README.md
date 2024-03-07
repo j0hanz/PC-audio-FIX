@@ -43,6 +43,7 @@ Student at Code Institute. Outside studding I'am a computer enthusiast that enjo
 - [@j0hanz](https://github.com/j0hanz)
 
 # User Experience
+
 PC audio FIX targets all users that loves great audio from their PC, providing guidance and useful information about audio.
 
 # Design
@@ -76,7 +77,9 @@ Implement a forum so users can communicate with other users.
 ### Benefits:
 
 * Quicker response
+
 * Users can help solving sound issues for other users.
+
 * Not completely relying on the owner of the site
 
 ## Pages
@@ -108,6 +111,7 @@ By going to the contact page, users can ask questions or give some audio/sound s
 ## Accessibility
 
 Userfriendly access & navigation bar that changes coolor when mouse Is hoverd to It.
+
 Example images below:
 
 ![Logo_mouse-click_hover](https://github.com/j0hanz/PC-audio-FIX/assets/159924955/16381623-8acc-4d63-8219-2e5fa18ceeba)
@@ -118,9 +122,13 @@ Example images below:
 
 ### Smooth scroll behavior
 
+Example video below:
+
 https://github.com/j0hanz/PC-audio-FIX/assets/159924955/0ef6731f-6021-4b9d-9821-93e292668906
 
 ### Quick access bar
+
+Example video below:
 
 https://github.com/j0hanz/PC-audio-FIX/assets/159924955/bb7bc065-1ffe-4ebc-814a-8c4cc1cc74af
 
@@ -158,6 +166,8 @@ https://github.com/j0hanz/PC-audio-FIX/assets/159924955/bb7bc065-1ffe-4ebc-814a-
 
 * [Gitpod](https://www.gitpod.io/) - For workspace.
 
+* [W3X Validator](https://validator.w3.org/) - For testing html & css code
+
 # Deployment & Local Development
 
 ## Deployment
@@ -167,8 +177,11 @@ Login (or signup) to Github.
 #### Instructions:
 
 * Go to the repository for this project -> [PC-audio-FIX](https://github.com/j0hanz/PC-audio-FIX)
+
 * Click on the settings button.
+
 * Select pages in the left hand navigation menu.
+
 * From the dropwdown, select *main branch* and then click save.
 
 ## Local Development
@@ -180,6 +193,7 @@ Login (or signup) to Github.
 #### Instructions:
 
 * Go to the repository for this project: -> [PC-audio-FIX](https://github.com/j0hanz/PC-audio-FIX)
+
 * Click the Fork button in the top right corner.
 
 ### Clone
@@ -187,8 +201,11 @@ Login (or signup) to Github.
 #### Instructions:
 
 * Go to the repository for this project: -> [PC-audio-FIX](https://github.com/j0hanz/PC-audio-FIX)
+
 * Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+
 * Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+
 * Type 'git clone' into the terminal and then paste the link you copied. Press enter.
 
 # Testing
